@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Pangolin|Slabo+27px" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" href="assets/css/hover.css">
+        <link rel="stylesheet" href="assets/css/carousel.css">
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+        <title>Podium</title>
+        <style>
+            #caption{
+                animation-delay: 0.7s;
+            }
+            #caption1{
+                animation-delay: 0.7s;
+            }
+    </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg sticky-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+        <p>Podium international</p>
+        <script src="assets/js/jquery-3.2.1.slim.min.js"></script>
+    	<script src="assets/js/popper.min.js"></script>
+    	<script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/particles.min.js"></script>
+        <script src="assets/js/app.js"></script>
+    	<script src="assets/js/wow.js"></script>
+    	<script>
+    		new WOW().init();
+    	</script>
+    	<script>
+    		$('#caption').animateCss('bounceIn');
+    	or;
+    	$('#caption').animateCss('bounceIn', function() {
+    	  // Do somthing after animation
+    	});
+
+    	$('#caption1').animateCss('FadeInUp');
+    	or;
+    	$('#caption1').animateCss('FadeInUp', function() {
+    	  // Do somthing after animation
+    	});
+    	</script>
+        <script type="text/javascript">
+			$(window).scroll(function(){
+				$('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+			});
+
+
+		</script>
+    </body>
+</html>
